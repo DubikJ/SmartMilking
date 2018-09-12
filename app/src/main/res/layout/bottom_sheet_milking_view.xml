@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/colorBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/wifi_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorRed"
+            android:padding="@dimen/milking_cap_margin">
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginStart="2dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/wifi_status_image"
+                    android:layout_width="@dimen/mini_icon_size"
+                    android:layout_height="@dimen/mini_icon_size"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_wifi_off"/>
+
+                <TextView
+                    android:id="@+id/wifi_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="Machine not connected."
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/device_status_text_size"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/connet_wifi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/linearLayout"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="5dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:text="@string/action_connect"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/device_status_text_size"
+                android:visibility="gone"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pump_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/pump_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorRed"
+            android:padding="@dimen/milking_cap_margin">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginStart="2dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/pump_status_image"
+                    android:layout_width="@dimen/mini_icon_size"
+                    android:layout_height="@dimen/mini_icon_size"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginRight="4dp"
+                    android:src="@drawable/ic_vacuum_pump"/>
+
+                <TextView
+                    android:id="@+id/pump_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/washing_forbidden"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/device_status_text_size"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/vacuum_pump"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_button_off"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/vacuum_pump_icon"
+                android:layout_width="@dimen/pump_size"
+                android:layout_height="@dimen/pump_size"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_vacuum_pump_off"/>
+
+            <TextView
+                android:id="@+id/vacuum_pump_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:clickable="false"
+                android:gravity="center_horizontal"
+                android:text="@string/vacuum_pump"
+                android:textSize="@dimen/text_size_middle"
+                android:textColor="@color/colorPrimary">
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/milk_pump"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_button_off"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/milk_pump_icon"
+                android:layout_width="@dimen/pump_size"
+                android:layout_height="@dimen/pump_size"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_pump_off"/>
+
+            <TextView
+                android:id="@+id/milk_pump_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:clickable="false"
+                android:gravity="center_horizontal"
+                android:text="@string/milk_pump"
+                android:textSize="@dimen/text_size_middle"
+                android:textColor="@color/colorPrimary">
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="milking_cap_margin">10dp</dimen>
+    <dimen name="milking_list_margin">3dp</dimen>
+    <dimen name="milking_list_padding">10dp</dimen>
+
+    <dimen name="milking_scan_size_heigh_icon">155dp</dimen>
+    <dimen name="milking_scan_size_weight_icon">135dp</dimen>
+
+    <dimen name="milking_width_cow_icon_portrait">160dp</dimen>
+    <dimen name="milking_height_cow_icon_portrait">140dp</dimen>
+    <dimen name="milking_width_cow_icon_landscape">150dp</dimen>
+    <dimen name="milking_height_cow_icon_landscape">120dp</dimen>
+
+    <dimen name="milking_marging_cow_icon">10dp</dimen>
+    <dimen name="milking_size_machine_icon">50dp</dimen>
+
+    <dimen name="milking_height_buket_icon_portrait">90dp</dimen>
+    <dimen name="milking_width_buket_icon_portrait">90dp</dimen>
+    <dimen name="milking_height_buket_icon_landscape">90dp</dimen>
+    <dimen name="milking_width_buket_icon_landscape">90dp</dimen>
+
+    <dimen name="milking_width_sum_litres">50dp</dimen>
+    <dimen name="milking_margin_buket_text">20dp</dimen>
+    <dimen name="milking_size_load_icon">30dp</dimen>
+
+    <dimen name="basic_margin_left_list_selection">20dp</dimen>
+    <dimen name="basic_margin_top_list_selection">10dp</dimen>
+
+    <dimen name="device_status_text_size">12dp</dimen>
+    <dimen name="text_size_very_big">40dp</dimen>
+    <dimen name="text_size_big">20dp</dimen>
+    <dimen name="text_size_middle">18dp</dimen>
+    <dimen name="text_size_small">10dp</dimen>
+
+    <dimen name="mini_icon_size">20dp</dimen>
+    <dimen name="machine_item_cap_marging">10dp</dimen>
+    <dimen name="recyclerview_item_offset">5dp</dimen>
+
+    <dimen name="pump_size">60dp</dimen>
+    <dimen name="milking_bottom_sheel">40dp</dimen>
+    <dimen name="milking_margin_item">0dp</dimen>
+
+</resources>

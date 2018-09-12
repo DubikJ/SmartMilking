@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MilkingReportActivity"
+    android:background="@color/colorBackground">
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+
+        <TextView
+            android:id="@+id/no_data"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/table_report_no_data"/>
+
+        <LinearLayout
+            android:id="@+id/data_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.87"
+                    android:background="@drawable/shape_table_cap_left"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/table_report_data"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/text_size_middle"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.19"
+                    android:background="@drawable/shape_table_cap"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/table_report_place"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/text_size_middle"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_table_cap"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/table_report_machine"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/text_size_middle"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_table_cap"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/table_report_cow"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/text_size_middle"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_table_cap_right"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/table_report_litres"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/text_size_middle"/>
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/milking_report_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@null"/>
+
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

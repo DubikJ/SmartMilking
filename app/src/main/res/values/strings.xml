@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Smart Milking</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="action_setting">Настройки</string>
+    <string name="action_save">Сохранить</string>
+    <string name="action_connect"><u>Подключить</u></string>
+    <string name="action_repeat">Повторить</string>
+    <string name="action_report">Отчет</string>
+    <string name="machine">Станок</string>
+    <string name="scan">Сканирование...</string>
+
+    <string name="volume">Громкость</string>
+
+    <!--Scanner RFID-->
+    <string name="scanner_detecting">Обнаружение сканера ...</string>
+    <string name="scanner_connected">Сканер подключен.</string>
+    <string name="scanner_unrecognized">Сканер не распознано.</string>
+    <string name="scanner_disconnected">Сканер отключен.</string>
+    <string name="scanner_result_error">Не удалось идентифицировать метку</string>
+    <string name="set_volume_max">Установите громкость максимально!</string>
+    <string name="scanner_error__start_scan">Не удалось запустить сканирование</string>
+    <string name="scanner_battery">Уровень заряда сканера</string>
+
+    <!--AlertDialog-->
+    <string name="questions_exit_clear">При выходе будут очищены все данные!
+        Вы уверены, что хотите выйти?</string>
+    <string name="questions_exit">Вы уверены, что хотите выйти?</string>
+    <string name="questions_select_element">Выбрать елемент?</string>
+    <string name="questions_data_save">Сохранить данные в базу?</string>
+    <string name="questions_rewrite_photo">Перезаписать фото?</string>
+    <string name="questions_title_info">Инфо</string>
+    <string name="questions_answer_yes">Да</string>
+    <string name="questions_answer_save">Сохранить</string>
+    <string name="questions_answer_no">Нет</string>
+    <string name="questions_answer_cancel">Отменить</string>
+    <string name="questions_answer_ok">Ок</string>
+    <string name="welcome">"Добро пожаловать!"</string>
+    <string name="element_is_added">"Елемент уже добавлен!"</string>
+    <string name="questions_animal_not_added">Животное не внесено в базу. Внести в базу?</string>
+    <string name="animal_not_added">Животное не внесено в базу</string>
+
+    <string name="log_error_name">Отчет об ошибке</string>
+    <string name="double_press_exit">Пожалуйста, нажмите еще раз НАЗАД, чтоб закрыть приложение</string>
+
+    <string name="error_wifi_switch">Выключен WIFI.</string>
+    <string name="error_wifi_milk_stanchion_connection">Не подключен к WIFI АСУДМ.</string>
+    <string name="error_milk_stanchion_connection">Не подключен к АСУДМ.</string>
+    <string name="wifi_milk_stanchion_connected">Подключен к АСУДМ.</string>
+    <string name="wifi_milk_stanchion_connection">Подключение к АСУДМ...</string>
+    <string name="wifi_broke">Отмена</string>
+    <string name="error_milk_stanchion_connection_message">Устройство не подключено к АСУДМ.</string>
+
+    <string name="vacuum_pump">НАСОС ВАКУУМНЫЙ</string>
+    <string name="milk_pump">НАСОС МОЛОКА</string>
+
+    <string name="washing_forbidden">Промывка запрещена</string>
+    <string name="washing_allowed">Промывка разрешена</string>
+    <string name="accident">Авария</string>
+
+    <string name="questions_complete_milking">Завершить доение?</string>
+
+    <string name="litres_short">л</string>
+
+    <string name="litres_sum">Итого:  </string>
+
+    <string name="table_report_data">Дата</string>
+    <string name="table_report_place">№</string>
+    <string name="table_report_place_full">№ станка</string>
+    <string name="table_report_machine">Станок</string>
+    <string name="table_report_cow">Животн.</string>
+    <string name="table_report_litres">Литр.</string>
+    <string name="table_report_no_data">Нет данных</string>
+
+    <string name="table_report_date_start">Период с</string>
+    <string name="table_report_date_end">Период по</string>
+
+    <string name="file_writed">Файл записан</string>
+
+
+
+
+
+</resources>

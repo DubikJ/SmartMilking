@@ -1,0 +1,39 @@
+<resources>
+
+    <style name="LightTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">#006c18</item>
+        <item name="colorPrimaryDark">#005613</item>
+        <item name="colorAccent">#005613</item>
+    </style>
+
+    <style name="DarkTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">#e9b600</item>
+        <item name="colorPrimaryDark">#d69601</item>
+        <item name="colorAccent">#d69601</item>
+    </style>
+
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:background">@color/colorBackground</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+    <!--</style>-->
+
+    <!--<style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">-->
+        <!--<item name="android:textColor">@color/colorAccent</item>-->
+        <!--<item name="android:background">@color/colorBackground</item>-->
+    <!--</style>-->
+
+    <!--<style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />-->
+
+    <!--<style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />-->
+
+</resources>
